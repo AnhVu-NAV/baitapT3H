@@ -1,0 +1,9 @@
+form lable,
+form input {
+    display: block;
+}
+
+#message{
+    height: 60px;
+    width: 200px;
+}

@@ -1,0 +1,37 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 50px;
+    color: #fff;
+}
+
+.content{
+    text-align: center; 
+    padding: 10px 0;
+    color: #fff;
+}
+
+.button{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.button > button{
+    height: 40px;
+    width: 300px;
+    background-color: #4CAF50;
+    border: 1px solid black;
+    border-radius: 2px;
+    color: #fff;
+}
+
+.background{
+    background-image: url(./img/5-unusual-ways-to-use-an-umbrella.jpg);
+}
