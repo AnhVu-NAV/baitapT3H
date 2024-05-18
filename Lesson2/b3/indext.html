@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheerleader Registration Form</title>
+</head>
+<body>
+    <form action="/submit" method="post">
+        <h1>Cheerleader Registration</h1>
+        <p>Register your kid for the cheerleader squad.</p>
+
+        <div>
+            <label for="childFirstName">Child's first name *</label>
+            <label for="childLastName">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               Child's last name *</label> <br>
+            <input type="text" id="childFirstName" name="childFirstName" required>
+            <input type="text" id="childLastName" name="childLastName" required>
+            <br><br>
+        </div>
+        
+        <label>Age group *</label><br>
+        <input type="radio" id="ageGroup1" name="ageGroup" value="6-8" required>
+        <label for="ageGroup1">6 - 8 years old</label><br>
+        <input type="radio" id="ageGroup2" name="ageGroup" value="9-12">
+        <label for="ageGroup2">9 - 12 years old</label><br>
+        <input type="radio" id="ageGroup3" name="ageGroup" value="13-15">
+        <label for="ageGroup3">13 - 15 years old</label><br><br>
+        
+        <label>Gender *</label><br>
+        <input type="radio" id="genderBoy" name="gender" value="Boy" required>
+        <label for="genderBoy">Boy</label><br>
+        <input type="radio" id="genderGirl" name="gender" value="Girl">
+        <label for="genderGirl">Girl</label><br><br>
+        
+        <label>Previous dance and gymnastics experience?</label><br>
+        <input type="radio" id="experienceYes" name="experience" value="Yes" required>
+        <label for="experienceYes">Yes</label><br>
+        <input type="radio" id="experienceNo" name="experience" value="No">
+        <label for="experienceNo">No</label><br><br>
+        
+        <h2>Guardian Information</h2>
+        <p>Please enter parent or legal guardian information here</p>
+        
+        <div>
+            <label for="guardianFirstName">First name *</label>
+            <label for="guardianLastName">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Last name *</label> <br>
+            <input type="text" id="guardianFirstName" name="guardianFirstName" required>
+            <input type="text" id="guardianLastName" name="guardianLastName" required>
+            <br><br>
+        </div>
+       
+        <label for="phone">Phone</label><br>
+        <input type="text" id="phone" name="phone"><br><br>
+        
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label for="address">Address</label><br>
+        <textarea id="address" name="address"></textarea><br><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

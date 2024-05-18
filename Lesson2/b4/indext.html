@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bug Tracker Form</title>
+</head>
+<body>
+    <form action="/submit" method="post" enctype="multipart/form-data">
+        <h1>Bug Tracker</h1>
+        <p>Report a new bug.</p>
+        
+        <label for="bugTitle">Bug Title *</label><br>
+        <input type="text" id="bugTitle" name="bugTitle" required><br><br>
+        
+        <label for="issueDescription">Issue Description *</label><br>
+        <textarea id="issueDescription" name="issueDescription" required></textarea><br><br>
+        
+        <label for="operatingSystem">Operating System *</label><br>
+        <select id="operatingSystem" name="operatingSystem" required>
+            <option value="Windows 7">Windows 7</option>
+            <option value="Windows 8">Windows 8</option>
+            <option value="Windows 10">Windows 10</option>
+            <option value="Mac OS">Mac OS</option>
+            <option value="Linux">Linux</option>
+        </select><br><br>
+        
+        <label for="browser">Browser *</label><br>
+        <select id="browser" name="browser" required>
+            <option value="Internet Explorer">Internet Explorer</option>
+            <option value="Google Chrome">Google Chrome</option>
+            <option value="Mozilla Firefox">Mozilla Firefox</option>
+            <option value="Safari">Safari</option>
+            <option value="Opera">Opera</option>
+        </select><br><br>
+        
+        <label for="assignedTo">Assigned To *</label><br>
+        <select id="assignedTo" name="assignedTo" required>
+            <option value="QA Tester 1">QA Tester 1</option>
+            <option value="QA Tester 2">QA Tester 2</option>
+            <option value="QA Tester 3">QA Tester 3</option>
+        </select><br><br>
+        
+        <label for="priority">Priority *</label><br>
+        <input type="radio" id="priorityLow" name="priority" value="Low" required>
+        <label for="priorityLow">Low</label><br>
+        <input type="radio" id="priorityMedium" name="priority" value="Medium">
+        <label for="priorityMedium">Medium</label><br>
+        <input type="radio" id="priorityHigh" name="priority" value="High">
+        <label for="priorityHigh">High</label><br><br>
+        
+        <label for="screenshot1">Screenshot 1</label><br>
+        <input type="file" id="screenshot1" name="screenshot1"><br><br>
+        
+        <label for="screenshot2">Screenshot 2</label><br>
+        <input type="file" id="screenshot2" name="screenshot2"><br><br>
+        
+        <label for="status">Status *</label><br>
+        <select id="status" name="status" required>
+            <option value="In Queue">In Queue</option>
+            <option value="In Progress">In Progress</option>
+            <option value="Resolved">Resolved</option>
+            <option value="Closed">Closed</option>
+        </select><br><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Reservation Form</title>
+</head>
+<body>
+    <form action="/submit" method="post">
+        <h1>Hotel Reservation</h1>
+        <div>
+            <label for="firstName">First name *</label>
+            <label for="lastName">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Last name *</label> <br>
+            <input type="text" id="firstName" name="firstName" required>
+            <input type="text" id="lastName" name="lastName" required>
+            <br><br>
+        </div>
+
+        <label for="phone">Phone *</label><br>
+        <input type="text" id="phone" name="phone" required><br><br>
+        
+        <label for="email">Email *</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="arrivalDate">Arrival date *</label><br>
+        <input type="date" id="arrivalDate" name="arrivalDate" required><br><br>
+        
+        <label for="departureDate">Departure date *</label><br>
+        <input type="date" id="departureDate" name="departureDate" required><br><br>
+        
+        <label for="adults">Number of adults *</label><br>
+        <select id="adults" name="adults" required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select><br><br>
+        
+        <label for="children">Number of children</label><br>
+        <select id="children" name="children">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select><br><br>
+        
+        <label for="comments">Questions/Comments</label><br>
+        <textarea id="comments" name="comments"></textarea><br><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Church Donation Form</title>
+</head>
+<body>
+    <form action="/submit" method="post">
+        <h1>Church Donation</h1>
+        <div>
+            <label for="firstName">First name *</label>
+            <label for="lastName">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Last name *</label> <br>
+            <input type="text" id="firstName" name="firstName" required>
+            <input type="text" id="lastName" name="lastName" required>
+            <br><br>
+        </div>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label for="donationAmount">Donation Amount *</label><br>
+        <input type="radio" id="amount50" name="donationAmount" value="50" required>
+        <label for="amount50">$50</label><br>
+        <input type="radio" id="amount100" name="donationAmount" value="100">
+        <label for="amount100">$100</label><br>
+        <input type="radio" id="amount250" name="donationAmount" value="250">
+        <label for="amount250">$250</label><br>
+        <input type="radio" id="amount500" name="donationAmount" value="500">
+        <label for="amount500">$500</label><br><br>
+        
+        <label for="address">Full Address</label><br>
+        <textarea id="address" name="address"></textarea><br><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

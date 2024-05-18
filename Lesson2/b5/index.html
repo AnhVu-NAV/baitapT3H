@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advertising Estimate Form</title>
+</head>
+<body>
+    <form action="/submit" method="post">
+        <h1>Advertising Estimate</h1>
+        
+        <label for="companyName">Name / Company name *</label><br>
+        <input type="text" id="companyName" name="companyName" required><br><br>
+        
+        <label for="email">Email *</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="startDate">Ad Start Date *</label><br>
+        <input type="date" id="startDate" name="startDate" required><br><br>
+        
+        <label for="endDate">Ad End Date *</label><br>
+        <input type="date" id="endDate" name="endDate" required><br><br>
+        
+        <label>Advertisement Size (pixels) *</label><br>
+        <input type="radio" id="sizeOption1" name="adSize" value="Option1" required>
+        <label for="sizeOption1">Option1</label><br>
+        <input type="radio" id="sizeOption2" name="adSize" value="Option2">
+        <label for="sizeOption2">Option2</label><br>
+        <input type="radio" id="sizeOption3" name="adSize" value="Option3">
+        <label for="sizeOption3">Option3</label><br><br>
+        
+        <label>Which sites would you like to advertise on? *</label><br>
+        <input type="checkbox" id="siteOption1" name="adSites" value="Option1" required>
+        <label for="siteOption1">Option1</label><br>
+        <input type="checkbox" id="siteOption2" name="adSites" value="Option2">
+        <label for="siteOption2">Option2</label><br>
+        <input type="checkbox" id="siteOption3" name="adSites" value="Option3">
+        <label for="siteOption3">Option3</label><br><br>
+        
+        <label for="website">Website to be advertised *</label><br>
+        <input type="text" id="website" name="website" required><br><br>
+        
+        <label for="comments">Comments</label><br>
+        <textarea id="comments" name="comments"></textarea><br><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
