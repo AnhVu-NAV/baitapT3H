@@ -1,0 +1,32 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+#name,
+#email{
+    width: 200px;
+    height: 35px;
+    padding: 10px;
+    margin: 10px ;
+}
+
+#subject{
+    width: 425px;
+    height: 35px;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+#message{
+    width: 425px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.submit{
+    width: 120px;
+    padding: 10px;
+    
+}
