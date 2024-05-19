@@ -1,0 +1,31 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.banner{
+    background-color: #d1cccc;
+    width: 98%;
+    height: 30vh;
+    margin: auto;
+    text-align: center;
+    padding: 13vh;
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.content{
+    font-size: 14.5px;
+    color: rgb(146, 150, 150);
+}
+
+.more{
+    font-size: 14px;
+    width: 130px;
+    height: 40px;
+    border: none;
+    background-color: rgb(88, 190, 190);
+    color: #fff;
+    font-weight: 700;
+}
+
