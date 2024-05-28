@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 100%;
+    margin: auto;
+}
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 2px black solid;
+    margin: 10px;
+
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 200, 0);
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 1px rgb(117, 100, 3) solid;
+}
+nav {
+    margin-left: auto;
+}
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+}
+.content {
+    display: flex;
+    margin-top: 20px;
+}
+.rightContent{
+    width: 50%;
+}
+.image {
+    width: 100%;
+    height: 300px;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+}
+.details {
+    width: 40%;
+    padding-left: 20px;
+}
+.details h1 {
+    margin: 0;
+}
+.details .rating {
+    color: green;
+}
+.buttons {
+    margin-top: 10px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+
+}
+.buttons .share {
+    width: 20%;
+    background-color: rgba(247,206,204,1);
+    border: 2px #d2a7a5 solid;
+    border-radius: 6px;
+}
+.buttons .download {
+    width: 20%;
+    background-color: #e3c800;
+    border: 2px #c4af26 solid;
+    border-radius: 6px;
+}
+.buttons .watch {
+    width: 50%;
+    background-color: #1ba0e1;
+    border: 2px #2598d0 solid;
+    border-radius: 6px;
+    color: white;
+}
+.description {
+    margin-top: 20px;
+    border: 1px black solid;
+    padding: 15px 5px;
+}
+.cast {
+    display: flex;
+    margin-top: 20px;
+}
+.cast .actor {
+    text-align: center;
+    margin-right: 20px;
+}
+.cast .actor img {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border-radius: 50%;
+}
+
+.actor > p {
+    color: green;
+}
+
+.des{
+    padding: 30px;
+}
