@@ -57,10 +57,51 @@ nav a {
 }
 .details h1 {
     margin: 0;
+    margin-bottom: 20px;
+}
+.details p{
+    margin-bottom: 20px;
+}
+
+.details .time{
+    margin-bottom: 0;
+    font-size: 20px;
 }
 .details .rating {
     color: green;
+    font-size: 30px;
 }
+
+.category{
+    margin: 20px 0;
+}
+
+.war{
+    margin-right: 10px;
+}
+
+.war,
+.comedy{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.infor{
+    display: flex;
+}
+
+.titleInfor{
+    padding-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contentInfor{
+    padding-top: 25px;
+    padding-left: 20px;
+    font-
+}
+
 .buttons {
     margin-top: 10px;
 }
