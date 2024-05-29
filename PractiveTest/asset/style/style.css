@@ -99,7 +99,11 @@ nav a {
 .contentInfor{
     padding-top: 25px;
     padding-left: 20px;
-    font-
+}
+
+.contentInfor a{
+    text-decoration: none;
+    color: #1ba0e1;
 }
 
 .buttons {
@@ -161,5 +165,5 @@ nav a {
 }
 
 .des{
-    padding: 30px;
+    padding: 20px;
 }
