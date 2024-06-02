@@ -1,0 +1,98 @@
+1. Hãy khai báo các biến và cho biết kết quả của các phép toán dưới đây?  Giải thích vì sao có kết quả đó?
+x = true, y = true, z = false
+
+x && y && z → false
+x && y && !z → true
+(x && y) || z → true
+(x && y) || !z → true
+x && (y || z) → true
+x && !(y || z) → false
+x && (y || !z) → true
+x && (!y || z) → false
+
+2. Hãy khai báo các biến và cho biết kết quả của các phép toán dưới đây?  Giải thích vì sao có kết quả đó?
+name = 'AAA', age = 20, isGood = true
+
+age + 10 = 30
+age % 3 = 2
+name + ' BBB' = 'AAA BBB'
+!isGood = ?
+name == 'aaa' && age >= 20 → false
+name != 'aaa' && isGood → True
+!(age < 10) && !isGood → false
+
+3. Hãy khai báo các biến và cho biết kết quả của các phép toán dưới đây?  Giải thích vì sao có kết quả đó?
+a = 10, b = 20, c = 30, d = '40'
+a + b + c = 60
+a - b / c = 9.3333
+a - (b * c) = -590 
+d - (a * b) - c = ko the thuc hien do d la string
+a + b + c + d = '6040' 
+d + a + b + c = '40102030' 
+d + a - b + c = ko thể thục hiện do d la strting ở đầu đã khiến cả thanh string 
+a - b + d - c = ko the thục hiện do d la string nen ko the - c sau khi thanh string
+d - c + a - b = d la string không thể trừ
+a * b + d * c = d la string không thể thục hiện
+
+4. Hãy khai báo các biến và cho biết kết quả của các phép toán dưới đây? Giải thích vì sao có kết quả đó?
+x = true, y = false, z = 10
+
+x && y → false
+x && !y → true
+x && z == 10 → true
+(x && z == 10) → true
+!(x && z == 10) → false
+!(x && z == 50) → true
+x && y && z == 10 → false
+x && !y && z == 10 → true
+x || y || z == 10 → true
+(x && y) || z != 10 → false
+!(x && z == 10) || y → false
+
+5. Hãy khai báo các biến và cho biết kết quả của các phép toán dưới đây? Giải thích vì sao có kết quả đó?
+a = 1, b = '2', c = 3, d = '4'
+
+b + d = '24' 
+a + b + c + d = '1234'
+a - b + c - d = ko the thuc hiện
+a - b - c + d = ko the thuc hien
+(b + d) - (a + c) = ko thể thực hiện
+(a + b) - (c + d) = ko thể thực hiện
+a * c + b * d = ko thể thực hiện
+-b + d = không thể thực hiện
+-b - d = không thể thực hiện
+-(b + d) = không thể thực hiện
+
+6. Hãy khai báo các biến và cho biết kết quả của các phép toán dưới đây? Giải thích vì sao có kết quả đó?
+age = 25, isMarried = false, isRich = true
+
+age > 25 && isMarried && isRich → false
+(age <= 25 || isMarried) && isRich → true
+(age > 10 || isRich) && isMarried → false
+!(age >= 15 && isMarried) && isRich → true
+!(age <= 20) || !(isMarried && isRich) → true
+(age > 8 && !isMarried) || isRich → true
+!(age < 8 && !isMarried) || isRich → true
+(age == 8 && isMarried) || !isRich → false
+
+7 Hãy cho biết kết quả phép toán và biểu thức
+a = 11, b = '22', c = 33
+a + b = '1122'
+a - c = -22
+a + b + c = '112233'
+a + c + b = '4422'
+(a + b) % 3 = lỗi
+
+a * b > 50 → true
+a ** b > 100 → true
+a - (b++) == 5 → false
+a - (++b) == 5 → false
+
+8. Cho các biến sau: 
+isTall = true, isMuscle = false, isHandsome = true
+Hãy cho biết kết quả của các biểu thức sau:
+isTall && isMuscle → false
+!isHandsome → false
+!isTall || !isMuscle → true
+isTall || !(isMuscle && isHandsome) → true
+isMuscle && !(isTall || isHandsome) → false
