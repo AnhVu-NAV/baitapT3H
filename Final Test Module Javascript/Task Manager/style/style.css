@@ -1,0 +1,19 @@
+#task-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#task-list li.completed span {
+    text-decoration: line-through;
+}
+
+.hidden {
+    display: none;
+}
+
+.fa-trash {
+    cursor: pointer;
+}
